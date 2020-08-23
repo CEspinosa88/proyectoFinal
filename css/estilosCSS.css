@@ -1,0 +1,154 @@
+.tituloAbout {
+  text-align: center;
+  font-size: 25px;
+  transition: all 0.2s;
+  font-family: 'Hind', sans-serif;
+  margin: 50px; }
+
+.tituloAbout:hover {
+  font-size: 45px;
+  font-weight: bold; }
+
+.aboutUs {
+  display: grid;
+  grid-template-areas: "parrafo1 fotoVieja" "parrafo2 fotoVieja";
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  font-size: 25px; }
+
+section#parrafo1 {
+  grid-area: parrafo1; }
+
+img#fotoVieja {
+  grid-area: fotoVieja;
+  justify-content: center;
+  align-items: center; }
+
+section#parrafo2 {
+  grid-area: parrafo2; }
+
+.contacto {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Hind', sans-serif;
+  transition: 0.2s;
+  margin: 50px; }
+
+.contacto:hover {
+  font-size: 45px;
+  font-weight: bold; }
+
+.contacto2 {
+  text-align: center;
+  font-family: 'Hind', sans-serif; }
+
+.cuadroComentarios {
+  resize: none; }
+
+@media (max-width: 576px) {
+  .cuadroComentarios {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 80%; } }
+
+#nombreEmpresa {
+  color: red;
+  font-weight: bold;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 60px; }
+
+#lemaEmpresa {
+  color: #582392;
+  font-size: 20px;
+  font-family: 'Hind', sans-serif; }
+
+header {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem; }
+
+li {
+  display: inline-block;
+  padding: 10px; }
+
+.piePagina {
+  text-align: center;
+  padding: 10px;
+  background-color: #b4b4b4; }
+
+#logo {
+  margin: 10px 0px 10px 10px; }
+
+#negro {
+  background-color: black; }
+
+.datosEmpresa {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Hind', sans-serif;
+  font-size: 25px;
+  margin: 80px; }
+
+#carrusel {
+  width: 30%;
+  margin: 0 auto; }
+
+.centrarTitulo {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Hind', sans-serif;
+  font-size: 25px;
+  transition: all 0.2s; }
+
+.centrarTitulo:hover {
+  font-size: 45px;
+  font-weight: bold; }
+
+.carousel-inner img {
+  width: 100%;
+  height: 380px; }
+
+#ListadoProd {
+  font-size: 25px;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  transition: 0.2s;
+  margin: 50px; }
+
+#tablaProductos {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 20px;
+  margin: 50px;
+  border: 3px solid black;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: #E6E4FD;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 0; }
+
+#ListadoProd:hover {
+  font-size: 45px;
+  font-weight: bold; }
+
+#tituloSucursales {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Hind', sans-serif;
+  transition: 0.2s;
+  margin: 50px; }
+
+#tituloSucursales:hover {
+  font-size: 45px;
+  font-weight: bold; }
+
+.sucursales {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Hind', sans-serif; }

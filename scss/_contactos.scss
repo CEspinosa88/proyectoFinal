@@ -1,0 +1,29 @@
+.contacto{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Hind', sans-serif;
+	transition: 0.2s;
+	margin: 50px;
+}
+
+.contacto:hover {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.contacto2 {
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+}
+.cuadroComentarios {
+  resize: none;
+}
+
+@media(max-width: 576px){
+	.cuadroComentarios {
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;	
+    	width: 80%;
+	}
+}

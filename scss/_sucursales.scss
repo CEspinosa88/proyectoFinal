@@ -1,0 +1,18 @@
+#tituloSucursales {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Hind', sans-serif;
+	transition: 0.2s;
+	margin: 50px;
+}
+
+#tituloSucursales:hover {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.sucursales {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Hind', sans-serif;
+}
