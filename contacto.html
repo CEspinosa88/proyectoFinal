@@ -19,7 +19,7 @@
 	<body>
 		<header style="background-image: url('media/headerPattern.png');">
 			<div class="container-fluid">
-			<img id="logo" src="media/logo2-removebg-preview.png" alt="logo" height="120px">
+			<img id="logo" src="media/logo2-removebg-preview.png" alt="logo" height="100px">
 			</div>		
 		</header>
 		<nav class="navbar navbar-expand-sm navbar-dark sticky-top " id="negro">
@@ -43,35 +43,37 @@
 		</nav>
 		<h1 class="contacto">CONTACTO</h1>
 		<br>
-		<form class="contacto2" action="CONTACTO_submit" method="get" accept-charset="utf-8">
-			<p><label for="NOMBRE">NOMBRE:</label><br>
-				<input type="text" name="NOMBRE">
-			<p><label for="APELLIDO">APELLIDO:</label><br>
-				<input type="text" name="APELLIDO">
-			<p><label for="email">EMAIL:</label><br>
-				<input type="email" name="ejemplo_mail" placeholder="mail@dominio.com">
-			<p><label for="TELEFONO">TELÉFONO:</label><br>
-				<input type="text" name="TELEFONO">
-			<p><label for="EMPRESA">EMPRESA:</label><br>
-				<input type="text" name="EMPRESA"><br><br>
-			<div>
-				<input type="checkbox" value="1">¿DESEA RECIBIR OFERTAS Y NOTICIAS A SU CORREO?
-			</div>
-			<br>
-			<p><label for="AREA">ÁREA:</label><br>
-				<select name="AREA">
-					<option name="VENTAS">VENTAS</option>
-					<option name="COMPRAS">COMPRAS</option>
-					<option name="RRHH">RRHH</option>
-				</select></p>
-			<br>
-			<p><label for="COMENTARIOS">COMENTARIOS:</label><br>
-				<textarea class="cuadroComentarios" name="COMENTARIOS" rows="10" cols="50" ></textarea></p>
-				<input type="submit" value="Enviar">
-				<input type="reset" value="Limpiar formulario">
-		</form>
+		<div id="formulario">
+			<form action="CONTACTO_submit" method="get" accept-charset="utf-8">
+				<p><label for="NOMBRE">NOMBRE:</label><br>
+					<input type="text" name="NOMBRE">
+				<p><label for="APELLIDO">APELLIDO:</label><br>
+					<input type="text" name="APELLIDO">
+				<p><label for="email">EMAIL:</label><br>
+					<input type="email" name="ejemplo_mail" placeholder="mail@dominio.com">
+				<p><label for="TELEFONO">TELÉFONO:</label><br>
+					<input type="text" name="TELEFONO">
+				<p><label for="EMPRESA">EMPRESA:</label><br>
+					<input type="text" name="EMPRESA"><br><br>
+				<div>
+					<input type="checkbox" value="1">¿DESEA RECIBIR OFERTAS Y NOTICIAS A SU CORREO?
+				</div>
+				<br>
+				<p><label for="AREA">ÁREA:</label><br>
+					<select name="AREA">
+						<option name="VENTAS">VENTAS</option>
+						<option name="COMPRAS">COMPRAS</option>
+						<option name="RRHH">RRHH</option>
+					</select></p>
+				<br>
+				<p><label for="COMENTARIOS">COMENTARIOS:</label><br>
+					<textarea class="cuadroComentarios" name="COMENTARIOS" rows="10" cols="50" ></textarea></p>
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Limpiar formulario">
+			</form>
+		</div>
 		<br>
-		<footer class="piePagina">
+		<footer style="background-image: url('media/headerPattern.png');" class="piePagina">
 			Autor: Carlos Espinosa<br>
 			<a href="http://www.google.com">Contacto</a>
 		</footer>
