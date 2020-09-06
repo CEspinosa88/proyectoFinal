@@ -11,11 +11,10 @@
 
 .aboutUs {
   display: grid;
-  grid-template-areas: "parrafo1 fotoVieja" "parrafo2 fotoVieja";
-  grid-template-rows: 300px 300px;
-  grid-template-columns: 400px 400px;
+  grid-template-areas: "parrafo1 fotoVieja" "fotoVieja2 parrafo2";
   justify-content: center;
-  font-size: 25px; }
+  font-size: 20px;
+  margin: 10px; }
 
 section#parrafo1 {
   grid-area: parrafo1; }
@@ -23,10 +22,23 @@ section#parrafo1 {
 img#fotoVieja {
   grid-area: fotoVieja;
   justify-content: center;
-  align-items: center; }
+  align-self: center; }
+
+img#fotoVieja2 {
+  grid-area: fotoVieja2;
+  justify-content: center;
+  align-self: center; }
 
 section#parrafo2 {
   grid-area: parrafo2; }
+
+@media (max-width: 576px) {
+  #fotoVieja {
+    height: 100px; }
+  .aboutUs {
+    font-size: 15px; }
+  #fotoVieja2 {
+    height: 100px; } }
 
 .contacto {
   text-align: center;
@@ -41,16 +53,19 @@ section#parrafo2 {
 
 #formulario {
   text-align: center;
-  font-family: 'Hind', sans-serif;
-  margin: 10px 300px 10px 300px;
-  padding: 10px 0px 10px 0px; }
+  font-family: 'Hind', sans-serif; }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   #formulario {
     width: 100%; } }
 
 .cuadroComentarios {
   resize: none; }
+
+@media (max-width: 576px) {
+  .cuadroComentarios {
+    width: 300px;
+    height: auto; } }
 
 #nombreEmpresa {
   color: red;
@@ -145,6 +160,9 @@ iframe {
 #ListadoProd:hover {
   font-size: 45px;
   font-weight: bold; }
+
+.table-responsive {
+  margin: 10px !important; }
 
 #tituloSucursales {
   text-align: center;

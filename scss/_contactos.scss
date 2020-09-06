@@ -14,11 +14,9 @@
 #formulario {
 	text-align: center;
 	font-family: 'Hind', sans-serif;
-	margin: 10px 300px 10px 300px;
-	padding: 10px 0px 10px 0px;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
 	#formulario{
 		width: 100%;
 	}
@@ -28,3 +26,9 @@
   resize: none;
 }
 
+@media (max-width: 576px){
+	.cuadroComentarios{
+		width: 300px;
+		height: auto;
+	}
+}
